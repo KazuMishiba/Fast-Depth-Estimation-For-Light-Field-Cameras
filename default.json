@@ -1,0 +1,60 @@
+{
+   "Path":
+   {
+      "p1": "C:\\Users\\Name\\data\\",
+      "p2": "training",
+      "p3": "cotton"
+   },
+   "Input":
+   {
+      "dir": "#p1\\#p2\\#p3\\",
+      "baseName": "input_Cam",
+      "estimateAll": 0,
+      "targetIndex": -1,
+      "configFilePath": "#p1\\#p2\\#p3\\parameters.cfg"
+   },
+   "Output":
+   {
+      "dir": "C:\\Users\\Name\\save\\",
+      "baseNameEstimation": "#p3",
+      "baseNameRuntime": "runtime",
+      "useViewpointIndexAsSuffix": 1,
+      "suffixInitialEstimation": "_init",
+      "saveResultInitialEstimation": 0,
+      "saveResultInitialRuntime": 0,
+      "saveResultFinalEstimation": 0,
+      "saveResultFinalRuntime": 0,
+      "saveAsPFM": 0,
+      "saveAsPNG": 1
+   },
+   "Parameter":
+   {
+      "disparityResolution": 256,
+      "gamma": 0.8,
+      "lambda": 15,
+      "sigma": 10,
+      "W1": 5,
+      "W2": 7,
+      "t": 5,
+      "mu0_lowres": 0.001,
+      "mu0_highres": 0.1,
+      "kappa":1.2,
+      "tau":0.001,
+      "viewSelection": "adaptive",
+      "usedViewNum": 21,
+      "useOptimization": 1
+   },
+   "ReduceData":
+   {
+      "enable" : 0,
+      "enableLimitView" : 1,
+      "useViewLength" : 5,
+      "enableScaleImageSize" : 1,
+      "scalingRate" : 0.5
+   },
+   "Debug":
+   {
+      "displayIntermediate": 0,
+      "displayResult": 1
+   }
+}
