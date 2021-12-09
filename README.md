@@ -132,7 +132,7 @@ set as `"p1":"C:\\Users\\Name\\data\\"`.
 
 
 ## Using other dataset
-The following is an example using a dataset which has $9 \times 9$ viewpoints.
+The following is an example using a dataset which has 9 * 9 viewpoints.
 
 ### Viewpoint coordinate
 ```
@@ -168,8 +168,8 @@ If Input.baseName is "img", image names are `img000.png`, ..., `img080.png`.
 The program reads the following information about the dataset from `parameters.cfg`.
 - image_resolution_x_px: Image width
 - image_resolution_y_px: Image height
-- num_cams_x: Number of viewpoints in the $u$ direction
-- num_cams_y: Number of viewpoints in the $v$ direction
+- num_cams_x: Number of viewpoints in the u (horizontal) direction
+- num_cams_y: Number of viewpoints in the v (vertical) direction
 - disp_min: Minimum disparity of a scene
 - disp_max: Maximum disparity of a scene
 
@@ -237,17 +237,17 @@ See the paper for the details of Parameter.
 - saveAsPFM (boolean): Save disparity to PFM file.
 - saveAsPNG (boolean): Save disparity to PNG file (disparity is normalized).
 ### Parameter
-- disparityResolution: $\alpha_{max}$
-- gamma: $\gamma$
-- lambda: $\lambda$
-- sigma: $\sigma$
-- W1 (odd number): $W_1$
-- W2 (odd number): $W_2$
-- t: $t$
-- mu0_lowres: $\mu_0$ for downsampled resolution.
-- mu0_highres: $\mu_0$ for original resolution.
-- kappa: $\kappa$
-- tau: $\tau$
+- disparityResolution: *&alpha;<sub>max</sub>*
+- gamma: *&gamma;*
+- lambda: *&lambda;*
+- sigma: *&sigma;*
+- W1 (odd number): *W*<sub>1</sub>
+- W2 (odd number): *W*<sub>2</sub>
+- t: *t*
+- mu0_lowres: *&mu;*<sub>0</sub> for downsampled resolution.
+- mu0_highres: *&mu;*<sub>0</sub> for original resolution.
+- kappa: *&kappa;*
+- tau: *&tau;*
 - viewSelection:
   - "adaptive": Use view selection written in the paper.
   - "all": Use all viewpoints for estimation. usedViewNum is ignored.
@@ -305,7 +305,7 @@ If you want to apply data reduction, first set ReduceData.enable to 1, then set 
 
 **Example of data reduction**
 
-Suppose the original data is $512 \times 512$ in image size with $9 \times 9$ viewpoints.
+Suppose the original data is 512 * 512 in image size with 9 * 9 viewpoints.
 ```
    "ReduceData":
    {
@@ -316,7 +316,7 @@ Suppose the original data is $512 \times 512$ in image size with $9 \times 9$ vi
       "scalingRate" : 0.5
    },
 ```
-In this configuration, the viewpoints used are $5 \times 5$ as follows, and the image size is reduced to $256 \times 256$.
+In this configuration, the viewpoints used are 5 * 5 as follows, and the image size is reduced to 256 * 256.
 
 ```
 |------------------------------------- u
