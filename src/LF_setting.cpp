@@ -195,7 +195,7 @@ void LF_setting::saveResultDisparity(cv::Mat alpha, cv::Mat disparity, std::stri
 	if (this->saveAsPNG)
 	{
 		std::string fn = fileName + ".png";
-		if (cv::imwrite(fn, disparity))
+		if (cv::imwrite(fn, alpha))
 			std::cout << "Saved: " << fn << std::endl;
 		else
 			std::cout << "Failed to save: " << fn << std::endl;
