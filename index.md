@@ -7,8 +7,8 @@ An implementation of this paper is available [here](https://github.com/KazuMishi
 There is a typographical error in Eq. (17) of this paper.
 
 ## Incorrect:
-![error](https://github.com/KazuMishiba/Fast-Depth-Estimation-For-Light-Field-Cameras/blob/gh-pages/eq17_incorrect.png)
+![error](eq17_incorrect.png)
 
 ## Correct:
-![error](https://github.com/KazuMishiba/Fast-Depth-Estimation-For-Light-Field-Cameras/blob/gh-pages/eq17_correct.png)
+![error](eq17_correct.png)
 
