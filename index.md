@@ -1,3 +1,5 @@
+<head><meta name="google-site-verification" content="2EcdBk8UZ-i-TTnWz9A3v38r5YmCpb_JW3v3xjNTc3s" /></head>
+
 # Fast Depth Estimation for Light Field Cameras
 > Kazu Mishiba, "Fast Depth Estimation for Light Field Cameras," IEEE Transactions on Image Processing, vol. 29, pp. 4232-4242, 2020. [Link](https://ieeexplore.ieee.org/document/8985549)
 
